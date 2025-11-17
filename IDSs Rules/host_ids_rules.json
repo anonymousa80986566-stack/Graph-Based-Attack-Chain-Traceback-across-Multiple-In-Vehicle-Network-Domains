@@ -1,0 +1,395 @@
+{
+  "version": "1.0",
+  "system": "embedded_linux",
+  "platform": "robot_car_ecu",
+  "total_rules": 12,
+  "rules": [
+    {
+      "rule_id": "host_process_whitelist",
+      "rule_type": "process_validation",
+      "description": "Validate running processes against whitelist",
+      "parameters": {
+        "allowed_processes": [
+          "cpuhp",
+          "irq",
+          "kworker",
+          "ksoftirqd",
+          "migration",
+          "rcu_",
+          "kthread",
+          "jbd2",
+          "ext4",
+          "kblockd",
+          "card0",
+          "hpd_queue",
+          "rknpu",
+          "dw-hdmi",
+          "mmcblk",
+          "bcmdhd",
+          "dhd_static",
+          "ipv6_addrconf",
+          "kauditd",
+          "khungtaskd",
+          "khugepaged",
+          "ksmd",
+          "kcompactd",
+          "systemd",
+          "networkd",
+          "dbus",
+          "avahi",
+          "colord",
+          "rtkit",
+          "polkitd",
+          "cups",
+          "ntp",
+          "chrony",
+          "sshd",
+          "wpa_supplicant",
+          "NetworkManager",
+          "dhclient",
+          "bluetooth",
+          "rfkill",
+          "acpi",
+          "thermal",
+          "cpu_cooling",
+          "device-mapper",
+          "usb",
+          "i2c",
+          "spi",
+          "gpio",
+          "pwm",
+          "regulator",
+          "clk",
+          "phy",
+          "watchdog",
+          "rtc",
+          "input",
+          "hid",
+          "dma",
+          "serial",
+          "tty",
+          "can"
+        ],
+        "allow_kernel_threads": true,
+        "alert_unknown": true,
+        "ignore_empty_cmdline": true,
+        "pattern_matching": true,
+        "min_confidence": 0.8,
+        "check_interval": 30
+      },
+      "severity": "high",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_critical_process_monitor",
+      "rule_type": "process_health",
+      "description": "Monitor critical system processes",
+      "parameters": {
+        "critical_processes": [
+          "systemd",
+          "systemd-journald",
+          "NetworkManager",
+          "dbus-daemon",
+          "systemd-resolved"
+        ],
+        "check_interval": 30,
+        "restart_on_failure": false,
+        "alert_on_missing": true
+      },
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_resource_monitor",
+      "rule_type": "resource_usage",
+      "description": "Monitor CPU and memory usage",
+      "parameters": {
+        "cpu_threshold": 51.8,
+        "memory_threshold": 80.0,
+        "disk_threshold": 90.0,
+        "sustained_duration": 60,
+        "per_process_limit": 50.0
+      },
+      "severity": "medium",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_suspicious_process",
+      "rule_type": "malware_detection",
+      "description": "Detect suspicious process patterns",
+      "parameters": {
+        "suspicious_patterns": [
+          "\\.\\./",
+          "/tmp/\\.",
+          "nc\\s+-l",
+          "bash\\s+-i",
+          "/dev/tcp/",
+          "curl.*\\|.*sh",
+          "wget.*\\|.*sh",
+          "python.*-c",
+          "perl.*-e",
+          "ruby.*-e"
+        ],
+        "check_hidden_processes": true,
+        "check_deleted_binaries": true,
+        "check_tmp_execution": true
+      },
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_user_monitor",
+      "rule_type": "user_validation",
+      "description": "Monitor user accounts and privileges",
+      "parameters": {
+        "allowed_users": [
+          "rtkit",
+          "avahi",
+          "whoopsie",
+          "kernoops",
+          "tcpdump",
+          "systemd+",
+          "colord",
+          "lp",
+          "neardi",
+          "root",
+          "message+"
+        ],
+        "check_sudo": true,
+        "check_uid_0": true,
+        "alert_new_users": true
+      },
+      "severity": "high",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_file_integrity",
+      "rule_type": "integrity_check",
+      "description": "Monitor critical file integrity",
+      "parameters": {
+        "monitored_paths": [
+          "/etc/passwd",
+          "/etc/shadow",
+          "/etc/sudoers",
+          "/etc/systemd/",
+          "/boot/",
+          "/usr/bin/",
+          "/usr/sbin/"
+        ],
+        "hash_algorithm": "sha256",
+        "check_interval": 3600,
+        "allowed_suid_sgid": [
+          "/usr/bin/sudo",
+          "/usr/bin/pkexec",
+          "/usr/bin/passwd",
+          "/usr/bin/chsh",
+          "/usr/bin/chfn",
+          "/usr/bin/gpasswd",
+          "/usr/bin/newgrp",
+          "/usr/bin/mount",
+          "/usr/bin/umount",
+          "/usr/bin/su",
+          "/usr/bin/at",
+          "/usr/bin/crontab",
+          "/usr/bin/ssh-agent",
+          "/usr/bin/expiry",
+          "/usr/bin/wall",
+          "/usr/bin/chage",
+          "/usr/bin/bsd-write",
+          "/usr/sbin/pppd",
+          "/usr/sbin/unix_chkpwd",
+          "/usr/sbin/pam_extrausers_chkpwd",
+          "/usr/sbin/netreport",
+          "/usr/sbin/userhelper",
+          "/usr/sbin/usernetctl",
+          "/usr/lib/openssh/ssh-keysign",
+          "/usr/lib/dbus-1.0/dbus-daemon-launch-helper",
+          "/usr/lib/policykit-1/polkit-agent-helper-1",
+          "/usr/libexec/utempter/utempter",
+          "/usr/libexec/pt_chown",
+          "/bin/ping",
+          "/bin/ping6",
+          "/bin/mount",
+          "/bin/umount",
+          "/bin/su",
+          "/sbin/pam_timestamp_check",
+          "/sbin/unix_update"
+        ]
+      },
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_network_monitor",
+      "rule_type": "network_activity",
+      "description": "Monitor network connections",
+      "parameters": {
+        "allowed_ports": [
+          22,
+          80,
+          443,
+          6699
+        ],
+        "check_listeners": true,
+        "check_established": true,
+        "alert_unexpected_ports": true
+      },
+      "severity": "high",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_kernel_module",
+      "rule_type": "kernel_integrity",
+      "description": "Monitor kernel module loading",
+      "parameters": {
+        "allowed_modules": [
+          "bcmdhd",
+          "dhd_static_buf",
+          "cfg80211",
+          "mac80211",
+          "wl",
+          "rtl",
+          "ath",
+          "iwl",
+          "bnep",
+          "btusb",
+          "bluetooth",
+          "rfkill",
+          "acpi",
+          "thermal",
+          "cpu_cooling",
+          "device-mapper",
+          "dm-",
+          "md-",
+          "loop",
+          "zswap",
+          "zram",
+          "zsmalloc",
+          "crypto",
+          "kvm",
+          "vfio",
+          "pcie",
+          "pci",
+          "usb",
+          "typec",
+          "i2c",
+          "spi",
+          "gpio",
+          "pwm",
+          "regulator",
+          "clk",
+          "phy",
+          "watchdog",
+          "rtc",
+          "input",
+          "hid",
+          "dma",
+          "serial",
+          "tty",
+          "can",
+          "spidev",
+          "iio",
+          "binder",
+          "ashmem",
+          "ion",
+          "trusty",
+          "android",
+          "qcom",
+          "mtk",
+          "rockchip",
+          "amlogic",
+          "allwinner",
+          "samsung",
+          "broadcom",
+          "nvidia",
+          "intel",
+          "amd",
+          "arm"
+        ],
+        "alert_new_modules": true,
+        "check_rootkit_signatures": true
+      },
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_log_anomaly",
+      "rule_type": "log_analysis",
+      "description": "Detect anomalies in system logs",
+      "parameters": {
+        "log_sources": [
+          "/var/log/syslog",
+          "/var/log/auth.log",
+          "/var/log/kern.log",
+          "journalctl"
+        ],
+        "error_threshold": 10,
+        "check_gaps": true,
+        "check_tampering": true
+      },
+      "severity": "medium",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_privilege_escalation",
+      "rule_type": "privilege_monitor",
+      "description": "Detect privilege escalation attempts",
+      "parameters": {
+        "monitor_suid": true,
+        "monitor_sudo": true,
+        "monitor_su": true,
+        "check_capability_changes": true,
+        "alert_threshold": 3
+      },
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_robot_services",
+      "rule_type": "robot_health",
+      "description": "Monitor robot-specific services",
+      "parameters": {
+        "robot_services": [
+          "rknpu_power_off",
+          "CAN_controller",
+          "motor_control",
+          "sensor_hub"
+        ],
+        "check_hardware_status": true,
+        "check_driver_errors": true
+      },
+      "severity": "high",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_anti_tamper",
+      "rule_type": "tamper_detection",
+      "description": "Detect system tampering attempts",
+      "parameters": {
+        "check_time_changes": true,
+        "check_ids_bypass": true,
+        "check_log_deletion": true,
+        "check_config_changes": true
+      },
+      "severity": "critical",
+      "enabled": true
+    },
+    {
+      "rule_id": "host_kernel_thread_detection",
+      "rule_type": "kernel_thread_validation",
+      "description": "Specialized detection for kernel threads",
+      "parameters": {
+        "kernel_thread_patterns": [
+          "^[a-z]+/[0-9]+$",
+          "^[a-z]+_[a-z]+$"
+        ],
+        "ignore_if_no_cmdline": true,
+        "ignore_if_no_user": true,
+        "max_cpu_threshold": 1.0,
+        "max_memory_threshold": 1.0
+      },
+      "severity": "low",
+      "enabled": true
+    }
+  ]
+}
