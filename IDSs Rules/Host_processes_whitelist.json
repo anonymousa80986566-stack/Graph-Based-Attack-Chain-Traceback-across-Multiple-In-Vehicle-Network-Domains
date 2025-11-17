@@ -1,0 +1,25 @@
+{
+  "host": {
+    "process_whitelist": [
+      "cpuhp", "irq", "kworker", "ksoftirqd", "migration", "rcu_", "kthread",
+      "jbd2", "ext4", "kblockd", "card0", "hpd_queue", "rknpu", "dw-hdmi", "mmcblk",
+      "bcmdhd", "dhd_static", "ipv6_addrconf", "kauditd", "khungtaskd", "khugepaged",
+      "ksmd", "kcompactd", "systemd", "networkd", "dbus", "avahi", "colord", "rtkit",
+      "polkitd", "cups", "ntp", "chrony", "sshd", "wpa_supplicant", "NetworkManager",
+      "dhclient", "bluetooth", "rfkill", "acpi", "thermal", "cpu_cooling", "device-mapper",
+      "usb", "i2c", "spi", "gpio", "pwm", "regulator", "clk", "phy", "watchdog", "rtc",
+      "input", "hid", "dma", "serial", "tty", "can"
+    ],
+    "process_frequencies": {}
+  },
+  "ethernet": {
+    "avg_interval": 0.1,
+    "min_interval": 0.08,
+    "max_interval": 0.15
+  },
+  "can": {
+    "message_frequencies": {}
+  },
+  "generated_at": "2025-09-03T20:53:48.681000",
+  "learning_duration": 600.0
+}
