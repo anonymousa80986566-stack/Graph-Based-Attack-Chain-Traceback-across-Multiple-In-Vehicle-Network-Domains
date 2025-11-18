@@ -1,0 +1,897 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2865
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\
+root           1  0.0  0.0 169000 10496 ?        Ss   16:14   0:05 /sbin/init\
+root           2  0.0  0.0      0     0 ?        S    16:14   0:00 [kthreadd]\
+root           3  0.0  0.0      0     0 ?        I<   16:14   0:00 [rcu_gp]\
+root           4  0.0  0.0      0     0 ?        I<   16:14   0:00 [rcu_par_gp]\
+root           8  0.0  0.0      0     0 ?        I<   16:14   0:00 [mm_percpu_wq]\
+root           9  0.0  0.0      0     0 ?        S    16:14   0:00 [rcu_tasks_rude_]\
+root          10  0.8  0.0      0     0 ?        R    16:14   1:04 [ksoftirqd/0]\
+root          11  0.1  0.0      0     0 ?        I    16:14   0:09 [rcu_sched]\
+root          12  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/0]\
+root          13  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/0]\
+root          14  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/1]\
+root          15  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/1]\
+root          16  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/1]\
+root          19  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/2]\
+root          20  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/2]\
+root          21  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/2]\
+root          24  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/3]\
+root          25  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/3]\
+root          26  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/3]\
+root          29  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/4]\
+root          30  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/4]\
+root          31  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/4]\
+root          34  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/5]\
+root          35  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/5]\
+root          36  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/5]\
+root          39  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/6]\
+root          40  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/6]\
+root          41  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/6]\
+root          44  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/7]\
+root          45  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/7]\
+root          46  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/7]\
+root          49  0.0  0.0      0     0 ?        S    16:14   0:00 [kdevtmpfs]\
+root          50  0.0  0.0      0     0 ?        I<   16:14   0:00 [netns]\
+root          52  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/5:1-pm]\
+root          58  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/3:1-pm]\
+root          59  0.0  0.0      0     0 ?        S    16:14   0:00 [oom_reaper]\
+root          60  0.0  0.0      0     0 ?        I<   16:14   0:00 [writeback]\
+root         105  0.0  0.0      0     0 ?        I<   16:14   0:00 [kblockd]\
+root         106  0.0  0.0      0     0 ?        I<   16:14   0:00 [blkcg_punt_bio]\
+root         107  0.0  0.0      0     0 ?        S    16:14   0:00 [kconsole]\
+root         108  0.0  0.0      0     0 ?        I<   16:14   0:00 [tpm_dev_wq]\
+root         109  0.0  0.0      0     0 ?        I<   16:14   0:00 [devfreq_wq]\
+root         110  0.0  0.0      0     0 ?        S    16:14   0:00 [watchdogd]\
+root         112  0.0  0.0      0     0 ?        I<   16:14   0:00 [rpciod]\
+root         113  0.0  0.0      0     0 ?        I<   16:14   0:02 [kworker/5:1H-ext_eventd]\
+root         114  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/u17:0-mali_kbase_csf_sync_upd]\
+root         115  0.0  0.0      0     0 ?        I<   16:14   0:00 [xprtiod]\
+root         116  0.0  0.0      0     0 ?        I<   16:14   0:00 [cfg80211]\
+root         136  0.0  0.0      0     0 ?        S    16:14   0:00 [kswapd0]\
+root         137  0.0  0.0      0     0 ?        I<   16:14   0:00 [nfsiod]\
+root         138  0.0  0.0      0     0 ?        I<   16:14   0:00 [xfsalloc]\
+root         139  0.0  0.0      0     0 ?        I<   16:14   0:00 [xfs_mru_cache]\
+root         141  0.0  0.0      0     0 ?        I<   16:14   0:00 [kthrotld]\
+root         142  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/24-rockchip]\
+root         143  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/25-rockchip]\
+root         145  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/26-rockchip]\
+root         146  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/107-rockchi]\
+root         149  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work0]\
+root         150  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work1]\
+root         151  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work2]\
+root         152  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work3]\
+root         153  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work4]\
+root         154  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work5]\
+root         155  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work6]\
+root         156  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work7]\
+root         157  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work8]\
+root         158  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work9]\
+root         159  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work10]\
+root         160  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work11]\
+root         161  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/32-fdb50400]\
+root         162  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/39-fdba0000]\
+root         163  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/41-fdba4000]\
+root         164  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/43-fdba8000]\
+root         165  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/45-fdbac000]\
+root         166  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/47-fdbb0000]\
+root         167  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/37-fdb90000]\
+root         168  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/48-fdbd0000]\
+root         169  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/51-fdbe0000]\
+root         170  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/130-av1d-ma]\
+root         171  0.0  0.0      0     0 ?        S    16:14   0:00 [hwrng]\
+root         172  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/68-fde50000]\
+root         173  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/133-dw-dp-h]\
+root         174  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/109-fde6000]\
+root         183  0.0  0.0      0     0 ?        SN   16:14   0:00 [dmabuf-deferred]\
+root         184  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-wq]\
+root         185  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-reset-wq]\
+root         186  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-delete-wq]\
+root         187  0.0  0.0      0     0 ?        S    16:14   0:00 [scsi_eh_0]\
+root         188  0.0  0.0      0     0 ?        I<   16:14   0:00 [scsi_tmf_0]\
+root         189  0.0  0.0      0     0 ?        S    16:14   0:00 [spi2]\
+root         190  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/134-rk806]\
+root         191  0.0  0.0      0     0 ?        I<   16:14   0:00 [stmmac_wq]\
+root         197  0.0  0.0      0     0 ?        I<   16:14   0:00 [uas]\
+root         198  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/7:2-mm_percpu_wq]\
+root         200  0.0  0.0      0     0 ?        I    16:14   0:01 [kworker/1:2-mm_percpu_wq]\
+root         204  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/152-hym8563]\
+root         205  0.0  0.0      0     0 ?        I<   16:14   0:00 [6-0022]\
+root         206  0.0  0.0      0     0 ?        S    16:14   0:00 [6-0022]\
+root         207  0.0  0.0      0     0 ?        S    16:14   0:00 [6-0022]\
+root         210  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/117-rk_hdmi]\
+root         211  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/97-rockchip]\
+root         212  0.0  0.0      0     0 ?        I<   16:14   0:00 [dm_bufio_cache]\
+root         213  0.2  0.0      0     0 ?        S    16:14   0:17 [cfinteractive]\
+root         214  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/3:2-cgroup_destroy]\
+root         219  0.0  0.0      0     0 ?        I<   16:14   0:00 [sdhci]\
+root         220  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/79-mmc0]\
+root         221  0.0  0.0      0     0 ?        I<   16:14   0:00 [cryptodev_queue]\
+root         223  0.0  0.0      0     0 ?        I<   16:14   0:00 [mmc_complete]\
+root         224  0.0  0.0      0     0 ?        I<   16:14   0:01 [kworker/2:1H-events_highpri]\
+root         226  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/156-headset]\
+root         227  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/5:2-cgroup_destroy]\
+root         229  0.0  0.0      0     0 ?        I<   16:14   0:00 [ipv6_addrconf]\
+root         230  0.0  0.0      0     0 ?        S<   16:14   0:00 [krfcommd]\
+root         232  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/34-rga3_cor]\
+root         233  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/35-rga3_cor]\
+root         234  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/36-rga2]\
+root         235  0.0  0.0      0     0 ?        I<   16:14   0:00 [gpu_power_off_w]\
+root         236  0.0  0.0      0     0 ?        S    16:14   0:01 [mali-simple-pow]\
+root         239  0.0  0.0      0     0 ?        I<   16:14   0:00 [hpd_queue]\
+root         240  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/73-dw-hdmi-]\
+root         241  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/69-fde80000]\
+root         242  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/71-fde80000]\
+root         243  0.0  0.0      0     0 ?        I<   16:14   0:00 [hpd_queue]\
+root         244  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/114-dw-hdmi]\
+root         245  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/110-fdea000]\
+root         246  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/112-fdea000]\
+root         247  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc0]\
+root         248  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc1]\
+root         249  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc2]\
+root         250  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc3]\
+root         251  0.0  0.0      0     0 ?        I<   16:14   0:00 [rknpu_power_off]\
+root         263  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/6:2H-events_highpri]\
+root         268  0.0  0.0      0     0 ?        S    16:14   0:00 [jbd2/mmcblk0p7-]\
+root         269  0.0  0.0      0     0 ?        I<   16:14   0:00 [ext4-rsv-conver]\
+root         270  0.0  0.0      0     0 ?        I    16:14   0:02 [kworker/0:2-events]\
+root         291  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/6:2-pm]\
+root         296  0.0  0.1  53884 18764 ?        S<s  16:14   0:02 /lib/systemd/systemd-journald\
+root         328  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/6:3-cgroup_destroy]\
+root         331  0.0  0.0  21420  6920 ?        Ss   16:14   0:00 /lib/systemd/systemd-udevd\
+systemd+     419  0.2  0.0  25596 13104 ?        Ss   16:14   0:16 /lib/systemd/systemd-resolved\
+root         431  0.0  0.0 240196  7936 ?        Ssl  16:14   0:00 /usr/lib/accountsservice/accounts-daemon\
+avahi        437 26.0  0.0  10404  6652 ?        Rs   16:14  32:46 avahi-daemon: running [LPA3588.local]\
+root         439  0.0  0.0   9696  2596 ?        Ss   16:14   0:00 /usr/sbin/cron -f\
+root         443  0.4  0.0  34968 11884 ?        Ss   16:14   0:36 /usr/sbin/cupsd -l\
+message+     444  1.0  0.0   9596  5616 ?        Ss   16:14   1:21 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\
+root         445  0.1  0.1 340068 19968 ?        Ssl  16:14   0:07 /usr/sbin/NetworkManager --no-daemon\
+root         449  0.0  0.1  38772 19288 ?        Ss   16:14   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers\
+root         451  0.1  0.0 243260 10508 ?        Ssl  16:14   0:09 /usr/lib/policykit-1/polkitd --no-debug\
+root         476  0.0  0.0 236572  5844 ?        Ssl  16:14   0:00 /usr/libexec/switcheroo-control\
+root         479  0.0  0.0  17232  6628 ?        Ss   16:14   0:00 /lib/systemd/systemd-logind\
+root         480  0.0  0.0   5560  2424 ?        Ss   16:14   0:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user root --deviceglob /dev/input/event*\
+root         482  0.0  0.0 392376 11096 ?        Ssl  16:14   0:00 /usr/lib/udisks2/udisksd\
+root         483  0.0  0.0  12804  7804 ?        Ss   16:14   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant\
+avahi        499  0.0  0.0   6896   328 ?        S    16:14   0:00 avahi-daemon: chroot helper\
+root         558  0.0  0.0   9544     4 ?        Sl   16:14   0:00 /usr/bin/adbd\
+root         711  0.8  0.1 188300 27412 ?        Ssl  16:14   1:06 /usr/sbin/cups-browsed\
+root         807  6.2  0.2 780104 43644 ?        Ssl  16:14   7:49 /opt/todesk/bin/ToDesk_Service\
+root         810  0.0  0.1 116916 21016 ?        Ssl  16:14   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal\
+whoopsie     811  0.0  0.0 254700 14192 ?        Ssl  16:14   0:00 /usr/bin/whoopsie -f\
+root         815  0.0  0.2 1713300 36592 ?       Ssl  16:14   0:06 /usr/bin/containerd\
+root         816  0.0  0.0  12232  6376 ?        Ss   16:14   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\
+root         818  0.0  0.0 244460 11420 ?        Ssl  16:14   0:00 /usr/sbin/ModemManager\
+root         822  0.0  0.0   8164  1872 ttyFIQ0  Ss+  16:14   0:00 /sbin/agetty -o -p -- \\u --keep-baud 115200,38400,9600 ttyFIQ0 vt220\
+kernoops     825  0.0  0.0  11468   444 ?        Ss   16:14   0:01 /usr/sbin/kerneloops --test\
+kernoops     829  0.0  0.0  11468   444 ?        Ss   16:14   0:01 /usr/sbin/kerneloops\
+root         838  0.0  0.0   8392  1440 tty1     Ss+  16:14   0:00 /sbin/agetty -o -p -- \\u --noclear tty1 linux\
+root         844  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/138-dwc3]\
+root         907  0.0  0.0      0     0 ?        I<   16:14   0:00 [ext_eventd]\
+root         908  0.3  0.0      0     0 ?        S    16:14   0:27 [dhd_watchdog_th]\
+root         909  2.0  0.0      0     0 ?        S    16:14   2:33 [dhd_dpc]\
+root         910  0.5  0.0      0     0 ?        S    16:14   0:40 [dhd_rxf]\
+root         930  0.0  0.4 1663080 64732 ?       Ssl  16:14   0:06 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock\
+colord       945  0.0  0.0 321420 14740 ?        Ssl  16:14   0:03 /usr/libexec/colord\
+root         950  0.0  0.0   1808   460 ?        S    16:14   0:00 brcm_patchram_plus1 --enable_hci --no2bytes --use_baudrate_for_download --tosleep 200000 --baudrate 1500000 --patchram /system/etc/firmware  /dev/ttyS9\
+root        1150  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/u17:2-kbase_pm_poweroff_wait]\
+root        1151  0.0  0.0   8124  4232 ?        Ss   16:14   0:00 /usr/lib/bluetooth/bluetoothd\
+root        1211  0.0  0.0 232440  7024 ?        Ssl  16:14   0:00 /usr/sbin/lightdm\
+root        1219  0.3  1.1 3314744 186364 tty7   Ssl+ 16:14   0:29 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch\
+root        1258  0.0  0.0 161896  7312 ?        Sl   16:14   0:00 lightdm --session-child 12 15\
+neardi      1284  0.0  0.0  19244  9308 ?        Ss   16:14   0:01 /lib/systemd/systemd --user\
+neardi      1288  0.0  0.0 169616  3020 ?        S    16:14   0:00 (sd-pam)\
+neardi      1303  0.0  0.0 838492 12400 ?        Ssl  16:14   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal\
+neardi      1305  0.0  0.0 188492 12064 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu\
+rtkit       1308  0.0  0.0 152516  2468 ?        SNsl 16:14   0:00 /usr/libexec/rtkit-daemon\
+neardi      1318  0.0  0.0   9892  5992 ?        Ss   16:14   0:04 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\
+root        1362  0.0  0.0      0     0 ?        I<   16:14   0:00 [dhd_eventd]\
+neardi      1382  0.0  0.0   5304   436 ?        Ss   16:14   0:00 /usr/bin/ssh-agent /opt/sogoupinyin/files/bin/sogouimebs-session /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu\
+neardi      1394  0.0  0.0 305912  5872 ?        Ssl  16:14   0:00 /usr/libexec/at-spi-bus-launcher\
+neardi      1399  0.0  0.0   7808  3760 ?        S    16:14   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3\
+neardi      1427  0.0  0.0  90624  3212 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-ctl --monitor\
+neardi      1436  0.0  0.0 484604 13964 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu\
+neardi      1447  0.0  0.0 240780  6520 ?        Sl   16:14   0:00 /usr/bin/gnome-keyring-daemon --start --components=pkcs11\
+neardi      1455  3.3  2.4 5462984 386828 ?      Ssl  16:14   4:09 /usr/bin/gnome-shell\
+neardi      1533  0.0  0.0 240440  7208 ?        Ssl  16:14   0:00 /usr/libexec/gvfsd\
+neardi      1538  0.0  0.0 378644  5660 ?        Sl   16:14   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes\
+neardi      1555  0.0  0.0 385516  8020 ?        Sl   16:14   0:00 ibus-daemon --panel disable --xim\
+neardi      1559  0.0  0.0 163480  6596 ?        Sl   16:14   0:00 /usr/libexec/ibus-memconf\
+neardi      1560  0.0  0.1 276228 30460 ?        Sl   16:14   0:01 /usr/libexec/ibus-extension-gtk3\
+neardi      1562  0.0  0.1 198336 26832 ?        Sl   16:14   0:00 /usr/libexec/ibus-x11 --kill-daemon\
+neardi      1565  0.0  0.0 237152  6876 ?        Sl   16:14   0:00 /usr/libexec/ibus-portal\
+neardi      1577  0.0  0.0 161428  6832 ?        Sl   16:14   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session\
+neardi      1582  0.0  0.0 236280  5516 ?        Ssl  16:14   0:00 /usr/libexec/xdg-permission-store\
+neardi      1587  0.0  0.1 582372 16452 ?        Sl   16:14   0:00 /usr/libexec/gnome-shell-calendar-server\
+neardi      1593  0.0  0.1 941832 23428 ?        Ssl  16:14   0:00 /usr/libexec/evolution-source-registry\
+neardi      1602  0.0  0.2 553708 32468 ?        Sl   16:14   0:00 /usr/libexec/goa-daemon\
+root        1603  0.0  0.0 253672  9372 ?        Ssl  16:14   0:00 /usr/lib/upower/upowerd\
+neardi      1607  0.0  0.1 841424 28256 ?        Ssl  16:14   0:00 /usr/libexec/evolution-calendar-factory\
+neardi      1622  0.0  0.0 156376  4696 ?        Sl   16:14   0:00 /usr/libexec/dconf-service\
+neardi      1631  0.0  0.0 315716  8408 ?        Sl   16:14   0:00 /usr/libexec/goa-identity-service\
+neardi      1655  0.0  0.0 314824  8788 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-udisks2-volume-monitor\
+neardi      1668  0.0  0.1 676408 28272 ?        Ssl  16:14   0:00 /usr/libexec/evolution-addressbook-factory\
+neardi      1683  0.0  0.0 317696  8244 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-afc-volume-monitor\
+neardi      1691  0.0  0.0 238412  5720 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor\
+neardi      1699  0.0  0.0 236548  6140 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-goa-volume-monitor\
+neardi      1703  0.0  0.0 236564  5464 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-mtp-volume-monitor\
+neardi      1716  0.0  0.0 314568  7452 ?        Sl   16:14   0:00 /usr/libexec/gvfsd-trash --spawner :1.27 /org/gtk/gvfs/exec_spaw/0\
+neardi      1723  0.0  0.1 2928328 25516 ?       Sl   16:14   0:03 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications\
+neardi      1740  0.0  0.0 310492  6152 ?        Ssl  16:14   0:00 /usr/libexec/gsd-a11y-settings\
+neardi      1741  0.0  0.1 569044 28592 ?        Ssl  16:14   0:01 /usr/libexec/gsd-color\
+neardi      1742  0.0  0.0 374720 14448 ?        Ssl  16:14   0:00 /usr/libexec/gsd-datetime\
+neardi      1743  0.0  0.0 312100  7060 ?        Ssl  16:14   0:02 /usr/libexec/gsd-housekeeping\
+neardi      1744  0.0  0.1 346572 28616 ?        Ssl  16:14   0:00 /usr/libexec/gsd-keyboard\
+neardi      1745  0.0  0.1 900448 29920 ?        Ssl  16:14   0:00 /usr/libexec/gsd-media-keys\
+neardi      1746  0.0  0.1 421008 27980 ?        Ssl  16:14   0:00 /usr/libexec/gsd-power\
+neardi      1748  0.1  0.0 249888 10716 ?        Ssl  16:14   0:11 /usr/libexec/gsd-print-notifications\
+neardi      1752  0.0  0.0 457936  6216 ?        Ssl  16:14   0:00 /usr/libexec/gsd-rfkill\
+neardi      1754  0.0  0.0 236248  4964 ?        Ssl  16:14   0:00 /usr/libexec/gsd-screensaver-proxy\
+neardi      1759  0.0  0.0 466360 10332 ?        Ssl  16:14   0:00 /usr/libexec/gsd-sharing\
+neardi      1760  0.0  0.0 315768  8712 ?        Ssl  16:14   0:00 /usr/libexec/gsd-smartcard\
+neardi      1761  0.0  0.0 318212  8128 ?        Ssl  16:14   0:00 /usr/libexec/gsd-sound\
+neardi      1762  0.0  0.0 385256  6380 ?        Ssl  16:14   0:00 /usr/libexec/gsd-usb-protection\
+neardi      1764  0.0  0.1 346004 27124 ?        Ssl  16:14   0:00 /usr/libexec/gsd-wacom\
+neardi      1765  0.0  0.0 315060  8288 ?        Ssl  16:14   0:00 /usr/libexec/gsd-wwan\
+neardi      1766  0.0  0.1 347404 28716 ?        Ssl  16:14   0:03 /usr/libexec/gsd-xsettings\
+neardi      1779  0.0  0.3 591360 50852 ?        Sl   16:14   0:00 /usr/bin/python3 /usr/bin/blueman-applet\
+neardi      1813  0.0  0.3 647440 54868 ?        Sl   16:14   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify\
+neardi      1817  0.0  0.0 231452  6184 ?        Sl   16:14   0:00 /usr/libexec/gsd-disk-utility-notify\
+neardi      1824  0.0  0.0 313512  8236 ?        Sl   16:14   0:00 /usr/lib/aarch64-linux-gnu/indicator-messages/indicator-messages-service\
+neardi      1859  0.0  0.2 125832 37436 ?        S    16:14   0:00 fcitx\
+neardi      1880  0.0  0.0 163480  6844 ?        Sl   16:14   0:00 /usr/libexec/ibus-engine-simple\
+neardi      1895  0.0  0.0   7808  3196 ?        Ss   16:14   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf\
+neardi      1902  0.0  0.0   4916   200 ?        SN   16:14   0:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-sFHKz5JyIS,guid=f4ccc11005201f7deb06fc0c67f0057d 1895\
+neardi      1953  0.0  0.0 343012 13016 ?        Sl   16:14   0:00 /usr/libexec/gsd-printer\
+neardi      1966  0.0  0.2 364284 45348 ?        Sl   16:14   0:00 /usr/bin/python3 /usr/bin/blueman-tray\
+neardi      1967  0.0  0.0  43104  6584 ?        Ss   16:14   0:00 /usr/lib/bluetooth/obexd\
+neardi      1968  0.0  0.1 512952 23220 ?        SNsl 16:14   0:04 /usr/libexec/tracker-miner-fs\
+neardi      2001  0.1  0.8 854624 134760 ?       Sl   16:14   0:09 /opt/sogoupinyin/files/bin/sogoupinyin-service\
+neardi      2010  0.0  0.1 241392 18340 ?        Sl   16:14   0:07 /opt/sogoupinyin/files/bin/sogoupinyin-watchdog\
+neardi      2067  0.0  0.0 162936  5928 ?        Ssl  16:15   0:00 /usr/libexec/gvfsd-metadata\
+neardi      2070  0.0  0.1 421600 30448 ?        Sl   16:15   0:01 update-notifier\
+root        2094  0.0  0.0  10056  9096 ?        S<Ls 16:16   0:03 /usr/bin/atop -R -w /var/log/atop/atop_20250404 600\
+root        2185  0.0  0.0  15720  7992 ?        Ss   16:18   0:00 sshd: neardi [priv]\
+neardi      2271  0.0  0.0  15720  4588 ?        S    16:18   0:02 sshd: neardi@pts/0\
+neardi      2275  0.0  0.0  12476  4960 pts/0    Ss+  16:18   0:00 -bash\
+lp          2361  0.0  0.0  15304  5616 ?        S    16:20   0:00 /usr/lib/cups/notifier/dbus dbus://\
+lp          2376  0.0  0.0  15568  6068 ?        S    16:20   0:00 /usr/lib/cups/notifier/dbus dbus://\
+root        3529  0.0  0.0      0     0 ?        I    16:22   0:02 [kworker/4:0-mm_percpu_wq]\
+root        3640  0.0  0.0      0     0 ?        I    16:22   0:00 [kworker/7:0-cgroup_destroy]\
+root        3861  0.0  0.0      0     0 ?        I    16:28   0:00 [kworker/2:0-pm]\
+root        4001  0.1  0.0      0     0 ?        I    17:04   0:06 [kworker/u16:0-devfreq_wq]\
+root        4091  0.0  0.0      0     0 ?        I    17:16   0:00 [kworker/2:1-cgroup_destroy]\
+root        5398  0.0  0.0      0     0 ?        I    17:30   0:00 [kworker/1:1-cgroup_destroy]\
+root        5462  0.0  0.0      0     0 ?        I<   17:32   0:00 [kworker/7:2H-events_highpri]\
+root        5470  0.0  0.0      0     0 ?        I    17:32   0:01 [kworker/0:0-mm_percpu_wq]\
+root        5675  0.0  0.0      0     0 ?        I<   17:51   0:01 [kworker/1:2H-kblockd]\
+root        5692  0.2  0.0      0     0 ?        I    17:55   0:03 [kworker/u16:2-events_power_efficient]\
+root        5705  0.0  0.0      0     0 ?        I<   17:58   0:00 [kworker/0:1H-mmc_complete]\
+root        5721  0.1  0.0      0     0 ?        I    18:01   0:01 [kworker/u16:3-events_unbound]\
+root        5729  0.0  0.0      0     0 ?        I<   18:02   0:00 [kworker/5:2H]\
+root        5733  0.0  0.0      0     0 ?        I<   18:03   0:00 [kworker/0:0H-mmc_complete]\
+root        5734  0.0  0.0      0     0 ?        I<   18:03   0:00 [kworker/4:2H]\
+root        5743  0.0  0.0      0     0 ?        I<   18:04   0:00 [kworker/3:0H-events_highpri]\
+root        5751  0.0  0.0      0     0 ?        I    18:05   0:00 [kworker/4:1]\
+root        5935  0.0  0.0      0     0 ?        I<   18:10   0:00 [kworker/6:1H-kblockd]\
+root        5947  0.0  0.0      0     0 ?        I<   18:10   0:00 [kworker/4:0H-events_highpri]\
+root        5971  0.0  0.0      0     0 ?        I<   18:11   0:00 [kworker/7:1H]\
+root        5972  0.2  0.0      0     0 ?        I<   18:11   0:01 [kworker/2:0H-kblockd]\
+root        5984  0.0  0.0      0     0 ?        I<   18:11   0:00 [kworker/3:2H]\
+root        6030  0.0  0.0      0     0 ?        I<   18:14   0:00 [kworker/0:3H-mmc_complete]\
+root        6040  0.0  0.0      0     0 ?        I<   18:14   0:00 [kworker/1:1H]\
+root        6061  0.0  0.0  15464  4188 pts/0    S    18:15   0:00 sudo tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_181543.pcap\
+tcpdump     6070 18.8  0.0  11036  5852 pts/0    S    18:15   0:52 tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_181543.pcap\
+root        6090  0.0  0.0      0     0 ?        I    18:16   0:00 [kworker/u16:1-devfreq_wq]\
+root        6113  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/2:2H]\
+root        6120  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/5:0H]\
+root        6121  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/7:0H]\
+root        6122  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/6:0H]\
+root        6248  0.0  0.0      0     0 ?        I<   18:20   0:00 [kworker/3:1H]\
+neardi      6251  0.2  0.0  11412  3556 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_can.sh\
+neardi      6252  0.2  0.0  11412  3464 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_ethernet.sh\
+neardi      6253  0.2  0.0  11412  3420 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_host.sh\
+neardi      6262  7.8  0.0   1952   208 pts/0    S    18:20   0:00 candump can0\
+root        6263  0.6  0.0  15468  4140 pts/0    S    18:20   0:00 sudo tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_182015.pcap\
+tcpdump     6269 15.4  0.0  11036  5944 pts/0    S    18:20   0:00 tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_182015.pcap\
+neardi      6272  0.0  0.0  13244  3000 pts/0    R    18:20   0:00 ps aux\
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\
+root           1  0.0  0.0 169000 10496 ?        Ss   16:14   0:05 /sbin/init\
+root           2  0.0  0.0      0     0 ?        S    16:14   0:00 [kthreadd]\
+root           3  0.0  0.0      0     0 ?        I<   16:14   0:00 [rcu_gp]\
+root           4  0.0  0.0      0     0 ?        I<   16:14   0:00 [rcu_par_gp]\
+root           8  0.0  0.0      0     0 ?        I<   16:14   0:00 [mm_percpu_wq]\
+root           9  0.0  0.0      0     0 ?        S    16:14   0:00 [rcu_tasks_rude_]\
+root          10  0.8  0.0      0     0 ?        S    16:14   1:04 [ksoftirqd/0]\
+root          11  0.1  0.0      0     0 ?        I    16:14   0:09 [rcu_sched]\
+root          12  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/0]\
+root          13  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/0]\
+root          14  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/1]\
+root          15  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/1]\
+root          16  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/1]\
+root          19  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/2]\
+root          20  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/2]\
+root          21  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/2]\
+root          24  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/3]\
+root          25  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/3]\
+root          26  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/3]\
+root          29  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/4]\
+root          30  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/4]\
+root          31  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/4]\
+root          34  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/5]\
+root          35  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/5]\
+root          36  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/5]\
+root          39  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/6]\
+root          40  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/6]\
+root          41  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/6]\
+root          44  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/7]\
+root          45  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/7]\
+root          46  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/7]\
+root          49  0.0  0.0      0     0 ?        S    16:14   0:00 [kdevtmpfs]\
+root          50  0.0  0.0      0     0 ?        I<   16:14   0:00 [netns]\
+root          52  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/5:1-pm]\
+root          58  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/3:1-mm_percpu_wq]\
+root          59  0.0  0.0      0     0 ?        S    16:14   0:00 [oom_reaper]\
+root          60  0.0  0.0      0     0 ?        I<   16:14   0:00 [writeback]\
+root         105  0.0  0.0      0     0 ?        I<   16:14   0:00 [kblockd]\
+root         106  0.0  0.0      0     0 ?        I<   16:14   0:00 [blkcg_punt_bio]\
+root         107  0.0  0.0      0     0 ?        S    16:14   0:00 [kconsole]\
+root         108  0.0  0.0      0     0 ?        I<   16:14   0:00 [tpm_dev_wq]\
+root         109  0.0  0.0      0     0 ?        I<   16:14   0:00 [devfreq_wq]\
+root         110  0.0  0.0      0     0 ?        S    16:14   0:00 [watchdogd]\
+root         112  0.0  0.0      0     0 ?        I<   16:14   0:00 [rpciod]\
+root         113  0.0  0.0      0     0 ?        I<   16:14   0:02 [kworker/5:1H-ext_eventd]\
+root         114  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/u17:0-mali_kbase_csf_sync_upd]\
+root         115  0.0  0.0      0     0 ?        I<   16:14   0:00 [xprtiod]\
+root         116  0.0  0.0      0     0 ?        I<   16:14   0:00 [cfg80211]\
+root         136  0.0  0.0      0     0 ?        S    16:14   0:00 [kswapd0]\
+root         137  0.0  0.0      0     0 ?        I<   16:14   0:00 [nfsiod]\
+root         138  0.0  0.0      0     0 ?        I<   16:14   0:00 [xfsalloc]\
+root         139  0.0  0.0      0     0 ?        I<   16:14   0:00 [xfs_mru_cache]\
+root         141  0.0  0.0      0     0 ?        I<   16:14   0:00 [kthrotld]\
+root         142  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/24-rockchip]\
+root         143  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/25-rockchip]\
+root         145  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/26-rockchip]\
+root         146  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/107-rockchi]\
+root         149  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work0]\
+root         150  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work1]\
+root         151  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work2]\
+root         152  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work3]\
+root         153  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work4]\
+root         154  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work5]\
+root         155  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work6]\
+root         156  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work7]\
+root         157  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work8]\
+root         158  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work9]\
+root         159  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work10]\
+root         160  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work11]\
+root         161  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/32-fdb50400]\
+root         162  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/39-fdba0000]\
+root         163  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/41-fdba4000]\
+root         164  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/43-fdba8000]\
+root         165  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/45-fdbac000]\
+root         166  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/47-fdbb0000]\
+root         167  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/37-fdb90000]\
+root         168  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/48-fdbd0000]\
+root         169  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/51-fdbe0000]\
+root         170  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/130-av1d-ma]\
+root         171  0.0  0.0      0     0 ?        S    16:14   0:00 [hwrng]\
+root         172  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/68-fde50000]\
+root         173  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/133-dw-dp-h]\
+root         174  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/109-fde6000]\
+root         183  0.0  0.0      0     0 ?        SN   16:14   0:00 [dmabuf-deferred]\
+root         184  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-wq]\
+root         185  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-reset-wq]\
+root         186  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-delete-wq]\
+root         187  0.0  0.0      0     0 ?        S    16:14   0:00 [scsi_eh_0]\
+root         188  0.0  0.0      0     0 ?        I<   16:14   0:00 [scsi_tmf_0]\
+root         189  0.0  0.0      0     0 ?        S    16:14   0:00 [spi2]\
+root         190  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/134-rk806]\
+root         191  0.0  0.0      0     0 ?        I<   16:14   0:00 [stmmac_wq]\
+root         197  0.0  0.0      0     0 ?        I<   16:14   0:00 [uas]\
+root         198  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/7:2-mm_percpu_wq]\
+root         200  0.0  0.0      0     0 ?        I    16:14   0:01 [kworker/1:2-pm]\
+root         204  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/152-hym8563]\
+root         205  0.0  0.0      0     0 ?        I<   16:14   0:00 [6-0022]\
+root         206  0.0  0.0      0     0 ?        S    16:14   0:00 [6-0022]\
+root         207  0.0  0.0      0     0 ?        S    16:14   0:00 [6-0022]\
+root         210  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/117-rk_hdmi]\
+root         211  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/97-rockchip]\
+root         212  0.0  0.0      0     0 ?        I<   16:14   0:00 [dm_bufio_cache]\
+root         213  0.2  0.0      0     0 ?        S    16:14   0:17 [cfinteractive]\
+root         214  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/3:2-cgroup_destroy]\
+root         219  0.0  0.0      0     0 ?        I<   16:14   0:00 [sdhci]\
+root         220  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/79-mmc0]\
+root         221  0.0  0.0      0     0 ?        I<   16:14   0:00 [cryptodev_queue]\
+root         223  0.0  0.0      0     0 ?        I<   16:14   0:00 [mmc_complete]\
+root         224  0.0  0.0      0     0 ?        I<   16:14   0:01 [kworker/2:1H-events_highpri]\
+root         226  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/156-headset]\
+root         227  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/5:2-cgroup_destroy]\
+root         229  0.0  0.0      0     0 ?        I<   16:14   0:00 [ipv6_addrconf]\
+root         230  0.0  0.0      0     0 ?        S<   16:14   0:00 [krfcommd]\
+root         232  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/34-rga3_cor]\
+root         233  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/35-rga3_cor]\
+root         234  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/36-rga2]\
+root         235  0.0  0.0      0     0 ?        I<   16:14   0:00 [gpu_power_off_w]\
+root         236  0.0  0.0      0     0 ?        S    16:14   0:01 [mali-simple-pow]\
+root         239  0.0  0.0      0     0 ?        I<   16:14   0:00 [hpd_queue]\
+root         240  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/73-dw-hdmi-]\
+root         241  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/69-fde80000]\
+root         242  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/71-fde80000]\
+root         243  0.0  0.0      0     0 ?        I<   16:14   0:00 [hpd_queue]\
+root         244  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/114-dw-hdmi]\
+root         245  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/110-fdea000]\
+root         246  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/112-fdea000]\
+root         247  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc0]\
+root         248  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc1]\
+root         249  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc2]\
+root         250  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc3]\
+root         251  0.0  0.0      0     0 ?        I<   16:14   0:00 [rknpu_power_off]\
+root         263  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/6:2H-events_highpri]\
+root         268  0.0  0.0      0     0 ?        S    16:14   0:00 [jbd2/mmcblk0p7-]\
+root         269  0.0  0.0      0     0 ?        I<   16:14   0:00 [ext4-rsv-conver]\
+root         270  0.0  0.0      0     0 ?        I    16:14   0:02 [kworker/0:2-events]\
+root         291  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/6:2-mm_percpu_wq]\
+root         296  0.0  0.1  53884 18764 ?        S<s  16:14   0:02 /lib/systemd/systemd-journald\
+root         328  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/6:3-cgroup_destroy]\
+root         331  0.0  0.0  21420  6920 ?        Ss   16:14   0:00 /lib/systemd/systemd-udevd\
+systemd+     419  0.2  0.0  25596 13104 ?        Ss   16:14   0:16 /lib/systemd/systemd-resolved\
+root         431  0.0  0.0 240196  7936 ?        Ssl  16:14   0:00 /usr/lib/accountsservice/accounts-daemon\
+avahi        437 26.0  0.0  10404  6652 ?        Ss   16:14  32:47 avahi-daemon: running [LPA3588.local]\
+root         439  0.0  0.0   9696  2596 ?        Ss   16:14   0:00 /usr/sbin/cron -f\
+root         443  0.4  0.0  34968 11884 ?        Ss   16:14   0:36 /usr/sbin/cupsd -l\
+message+     444  1.0  0.0   9596  5616 ?        Ss   16:14   1:22 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\
+root         445  0.1  0.1 340068 19968 ?        Ssl  16:14   0:07 /usr/sbin/NetworkManager --no-daemon\
+root         449  0.0  0.1  38772 19288 ?        Ss   16:14   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers\
+root         451  0.1  0.0 243260 10508 ?        Ssl  16:14   0:09 /usr/lib/policykit-1/polkitd --no-debug\
+root         476  0.0  0.0 236572  5844 ?        Ssl  16:14   0:00 /usr/libexec/switcheroo-control\
+root         479  0.0  0.0  17232  6628 ?        Ss   16:14   0:00 /lib/systemd/systemd-logind\
+root         480  0.0  0.0   5560  2424 ?        Ss   16:14   0:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user root --deviceglob /dev/input/event*\
+root         482  0.0  0.0 392376 11096 ?        Ssl  16:14   0:00 /usr/lib/udisks2/udisksd\
+root         483  0.0  0.0  12804  7804 ?        Ss   16:14   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant\
+avahi        499  0.0  0.0   6896   328 ?        S    16:14   0:00 avahi-daemon: chroot helper\
+root         558  0.0  0.0   9544     4 ?        Sl   16:14   0:00 /usr/bin/adbd\
+root         711  0.8  0.1 188300 27412 ?        Ssl  16:14   1:06 /usr/sbin/cups-browsed\
+root         807  6.2  0.2 780104 43644 ?        Ssl  16:14   7:49 /opt/todesk/bin/ToDesk_Service\
+root         810  0.0  0.1 116916 21016 ?        Ssl  16:14   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal\
+whoopsie     811  0.0  0.0 254700 14192 ?        Ssl  16:14   0:00 /usr/bin/whoopsie -f\
+root         815  0.0  0.2 1713300 36592 ?       Ssl  16:14   0:06 /usr/bin/containerd\
+root         816  0.0  0.0  12232  6376 ?        Ss   16:14   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\
+root         818  0.0  0.0 244460 11420 ?        Ssl  16:14   0:00 /usr/sbin/ModemManager\
+root         822  0.0  0.0   8164  1872 ttyFIQ0  Ss+  16:14   0:00 /sbin/agetty -o -p -- \\u --keep-baud 115200,38400,9600 ttyFIQ0 vt220\
+kernoops     825  0.0  0.0  11468   444 ?        Ss   16:14   0:01 /usr/sbin/kerneloops --test\
+kernoops     829  0.0  0.0  11468   444 ?        Ss   16:14   0:01 /usr/sbin/kerneloops\
+root         838  0.0  0.0   8392  1440 tty1     Ss+  16:14   0:00 /sbin/agetty -o -p -- \\u --noclear tty1 linux\
+root         844  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/138-dwc3]\
+root         907  0.0  0.0      0     0 ?        I<   16:14   0:00 [ext_eventd]\
+root         908  0.3  0.0      0     0 ?        S    16:14   0:27 [dhd_watchdog_th]\
+root         909  2.0  0.0      0     0 ?        S    16:14   2:33 [dhd_dpc]\
+root         910  0.5  0.0      0     0 ?        S    16:14   0:40 [dhd_rxf]\
+root         930  0.0  0.4 1663080 64732 ?       Ssl  16:14   0:06 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock\
+colord       945  0.0  0.0 321420 14740 ?        Ssl  16:14   0:03 /usr/libexec/colord\
+root         950  0.0  0.0   1808   460 ?        S    16:14   0:00 brcm_patchram_plus1 --enable_hci --no2bytes --use_baudrate_for_download --tosleep 200000 --baudrate 1500000 --patchram /system/etc/firmware  /dev/ttyS9\
+root        1150  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/u17:2-kbase_pm_poweroff_wait]\
+root        1151  0.0  0.0   8124  4232 ?        Ss   16:14   0:00 /usr/lib/bluetooth/bluetoothd\
+root        1211  0.0  0.0 232440  7024 ?        Ssl  16:14   0:00 /usr/sbin/lightdm\
+root        1219  0.3  1.1 3314744 186364 tty7   Ssl+ 16:14   0:29 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch\
+root        1258  0.0  0.0 161896  7312 ?        Sl   16:14   0:00 lightdm --session-child 12 15\
+neardi      1284  0.0  0.0  19244  9308 ?        Ss   16:14   0:01 /lib/systemd/systemd --user\
+neardi      1288  0.0  0.0 169616  3020 ?        S    16:14   0:00 (sd-pam)\
+neardi      1303  0.0  0.0 838492 12400 ?        Ssl  16:14   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal\
+neardi      1305  0.0  0.0 188492 12064 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu\
+rtkit       1308  0.0  0.0 152516  2468 ?        SNsl 16:14   0:00 /usr/libexec/rtkit-daemon\
+neardi      1318  0.0  0.0   9892  5992 ?        Ss   16:14   0:04 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\
+root        1362  0.0  0.0      0     0 ?        I<   16:14   0:00 [dhd_eventd]\
+neardi      1382  0.0  0.0   5304   436 ?        Ss   16:14   0:00 /usr/bin/ssh-agent /opt/sogoupinyin/files/bin/sogouimebs-session /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu\
+neardi      1394  0.0  0.0 305912  5872 ?        Ssl  16:14   0:00 /usr/libexec/at-spi-bus-launcher\
+neardi      1399  0.0  0.0   7808  3760 ?        S    16:14   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3\
+neardi      1427  0.0  0.0  90624  3212 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-ctl --monitor\
+neardi      1436  0.0  0.0 484604 13964 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu\
+neardi      1447  0.0  0.0 240780  6520 ?        Sl   16:14   0:00 /usr/bin/gnome-keyring-daemon --start --components=pkcs11\
+neardi      1455  3.3  2.4 5462984 386828 ?      Ssl  16:14   4:09 /usr/bin/gnome-shell\
+neardi      1533  0.0  0.0 240440  7208 ?        Ssl  16:14   0:00 /usr/libexec/gvfsd\
+neardi      1538  0.0  0.0 378644  5660 ?        Sl   16:14   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes\
+neardi      1555  0.0  0.0 385516  8020 ?        Sl   16:14   0:00 ibus-daemon --panel disable --xim\
+neardi      1559  0.0  0.0 163480  6596 ?        Sl   16:14   0:00 /usr/libexec/ibus-memconf\
+neardi      1560  0.0  0.1 276228 30460 ?        Sl   16:14   0:01 /usr/libexec/ibus-extension-gtk3\
+neardi      1562  0.0  0.1 198336 26832 ?        Sl   16:14   0:00 /usr/libexec/ibus-x11 --kill-daemon\
+neardi      1565  0.0  0.0 237152  6876 ?        Sl   16:14   0:00 /usr/libexec/ibus-portal\
+neardi      1577  0.0  0.0 161428  6832 ?        Sl   16:14   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session\
+neardi      1582  0.0  0.0 236280  5516 ?        Ssl  16:14   0:00 /usr/libexec/xdg-permission-store\
+neardi      1587  0.0  0.1 582372 16452 ?        Sl   16:14   0:00 /usr/libexec/gnome-shell-calendar-server\
+neardi      1593  0.0  0.1 941832 23428 ?        Ssl  16:14   0:00 /usr/libexec/evolution-source-registry\
+neardi      1602  0.0  0.2 553708 32468 ?        Sl   16:14   0:00 /usr/libexec/goa-daemon\
+root        1603  0.0  0.0 253672  9372 ?        Ssl  16:14   0:00 /usr/lib/upower/upowerd\
+neardi      1607  0.0  0.1 841424 28256 ?        Ssl  16:14   0:00 /usr/libexec/evolution-calendar-factory\
+neardi      1622  0.0  0.0 156376  4696 ?        Sl   16:14   0:00 /usr/libexec/dconf-service\
+neardi      1631  0.0  0.0 315716  8408 ?        Sl   16:14   0:00 /usr/libexec/goa-identity-service\
+neardi      1655  0.0  0.0 314824  8788 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-udisks2-volume-monitor\
+neardi      1668  0.0  0.1 676408 28272 ?        Ssl  16:14   0:00 /usr/libexec/evolution-addressbook-factory\
+neardi      1683  0.0  0.0 317696  8244 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-afc-volume-monitor\
+neardi      1691  0.0  0.0 238412  5720 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor\
+neardi      1699  0.0  0.0 236548  6140 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-goa-volume-monitor\
+neardi      1703  0.0  0.0 236564  5464 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-mtp-volume-monitor\
+neardi      1716  0.0  0.0 314568  7452 ?        Sl   16:14   0:00 /usr/libexec/gvfsd-trash --spawner :1.27 /org/gtk/gvfs/exec_spaw/0\
+neardi      1723  0.0  0.1 2928328 25516 ?       Sl   16:14   0:03 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications\
+neardi      1740  0.0  0.0 310492  6152 ?        Ssl  16:14   0:00 /usr/libexec/gsd-a11y-settings\
+neardi      1741  0.0  0.1 569044 28592 ?        Ssl  16:14   0:01 /usr/libexec/gsd-color\
+neardi      1742  0.0  0.0 374720 14448 ?        Ssl  16:14   0:00 /usr/libexec/gsd-datetime\
+neardi      1743  0.0  0.0 312100  7060 ?        Ssl  16:14   0:02 /usr/libexec/gsd-housekeeping\
+neardi      1744  0.0  0.1 346572 28616 ?        Ssl  16:14   0:00 /usr/libexec/gsd-keyboard\
+neardi      1745  0.0  0.1 900448 29920 ?        Ssl  16:14   0:00 /usr/libexec/gsd-media-keys\
+neardi      1746  0.0  0.1 421008 27980 ?        Ssl  16:14   0:00 /usr/libexec/gsd-power\
+neardi      1748  0.1  0.0 249888 10716 ?        Ssl  16:14   0:11 /usr/libexec/gsd-print-notifications\
+neardi      1752  0.0  0.0 457936  6216 ?        Ssl  16:14   0:00 /usr/libexec/gsd-rfkill\
+neardi      1754  0.0  0.0 236248  4964 ?        Ssl  16:14   0:00 /usr/libexec/gsd-screensaver-proxy\
+neardi      1759  0.0  0.0 466360 10332 ?        Ssl  16:14   0:00 /usr/libexec/gsd-sharing\
+neardi      1760  0.0  0.0 315768  8712 ?        Ssl  16:14   0:00 /usr/libexec/gsd-smartcard\
+neardi      1761  0.0  0.0 318212  8128 ?        Ssl  16:14   0:00 /usr/libexec/gsd-sound\
+neardi      1762  0.0  0.0 385256  6380 ?        Ssl  16:14   0:00 /usr/libexec/gsd-usb-protection\
+neardi      1764  0.0  0.1 346004 27124 ?        Ssl  16:14   0:00 /usr/libexec/gsd-wacom\
+neardi      1765  0.0  0.0 315060  8288 ?        Ssl  16:14   0:00 /usr/libexec/gsd-wwan\
+neardi      1766  0.0  0.1 347404 28716 ?        Ssl  16:14   0:03 /usr/libexec/gsd-xsettings\
+neardi      1779  0.0  0.3 591360 50852 ?        Sl   16:14   0:00 /usr/bin/python3 /usr/bin/blueman-applet\
+neardi      1813  0.0  0.3 647440 54868 ?        Sl   16:14   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify\
+neardi      1817  0.0  0.0 231452  6184 ?        Sl   16:14   0:00 /usr/libexec/gsd-disk-utility-notify\
+neardi      1824  0.0  0.0 313512  8236 ?        Sl   16:14   0:00 /usr/lib/aarch64-linux-gnu/indicator-messages/indicator-messages-service\
+neardi      1859  0.0  0.2 125832 37436 ?        S    16:14   0:00 fcitx\
+neardi      1880  0.0  0.0 163480  6844 ?        Sl   16:14   0:00 /usr/libexec/ibus-engine-simple\
+neardi      1895  0.0  0.0   7808  3196 ?        Ss   16:14   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf\
+neardi      1902  0.0  0.0   4916   200 ?        SN   16:14   0:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-sFHKz5JyIS,guid=f4ccc11005201f7deb06fc0c67f0057d 1895\
+neardi      1953  0.0  0.0 343012 13016 ?        Sl   16:14   0:00 /usr/libexec/gsd-printer\
+neardi      1966  0.0  0.2 364284 45348 ?        Sl   16:14   0:00 /usr/bin/python3 /usr/bin/blueman-tray\
+neardi      1967  0.0  0.0  43104  6584 ?        Ss   16:14   0:00 /usr/lib/bluetooth/obexd\
+neardi      1968  0.0  0.1 512952 23220 ?        SNsl 16:14   0:04 /usr/libexec/tracker-miner-fs\
+neardi      2001  0.1  0.8 854624 134760 ?       Sl   16:14   0:09 /opt/sogoupinyin/files/bin/sogoupinyin-service\
+neardi      2010  0.0  0.1 241392 18340 ?        Sl   16:14   0:07 /opt/sogoupinyin/files/bin/sogoupinyin-watchdog\
+neardi      2067  0.0  0.0 162936  5928 ?        Ssl  16:15   0:00 /usr/libexec/gvfsd-metadata\
+neardi      2070  0.0  0.1 421600 30448 ?        Sl   16:15   0:01 update-notifier\
+root        2094  0.0  0.0  10056  9096 ?        S<Ls 16:16   0:03 /usr/bin/atop -R -w /var/log/atop/atop_20250404 600\
+root        2185  0.0  0.0  15720  7992 ?        Ss   16:18   0:00 sshd: neardi [priv]\
+neardi      2271  0.0  0.0  15720  4588 ?        S    16:18   0:02 sshd: neardi@pts/0\
+neardi      2275  0.0  0.0  12476  4960 pts/0    Ss+  16:18   0:00 -bash\
+lp          2361  0.0  0.0  15304  5616 ?        S    16:20   0:00 /usr/lib/cups/notifier/dbus dbus://\
+lp          2376  0.0  0.0  15568  6068 ?        S    16:20   0:00 /usr/lib/cups/notifier/dbus dbus://\
+root        3529  0.0  0.0      0     0 ?        I    16:22   0:02 [kworker/4:0-events]\
+root        3640  0.0  0.0      0     0 ?        I    16:22   0:00 [kworker/7:0-cgroup_destroy]\
+root        3861  0.0  0.0      0     0 ?        I    16:28   0:00 [kworker/2:0-events]\
+root        4001  0.1  0.0      0     0 ?        I    17:04   0:06 [kworker/u16:0-devfreq_wq]\
+root        4091  0.0  0.0      0     0 ?        I    17:16   0:00 [kworker/2:1-cgroup_destroy]\
+root        5398  0.0  0.0      0     0 ?        I    17:30   0:00 [kworker/1:1-cgroup_destroy]\
+root        5462  0.0  0.0      0     0 ?        I<   17:32   0:00 [kworker/7:2H-events_highpri]\
+root        5470  0.0  0.0      0     0 ?        I    17:32   0:01 [kworker/0:0-events]\
+root        5675  0.0  0.0      0     0 ?        I<   17:51   0:01 [kworker/1:2H-kblockd]\
+root        5692  0.2  0.0      0     0 ?        I    17:55   0:03 [kworker/u16:2-events_power_efficient]\
+root        5705  0.0  0.0      0     0 ?        I<   17:58   0:00 [kworker/0:1H-mmc_complete]\
+root        5721  0.1  0.0      0     0 ?        I    18:01   0:01 [kworker/u16:3-events_unbound]\
+root        5729  0.0  0.0      0     0 ?        I<   18:02   0:00 [kworker/5:2H]\
+root        5733  0.0  0.0      0     0 ?        I<   18:03   0:00 [kworker/0:0H-mmc_complete]\
+root        5734  0.0  0.0      0     0 ?        I<   18:03   0:00 [kworker/4:2H]\
+root        5743  0.0  0.0      0     0 ?        I<   18:04   0:00 [kworker/3:0H-kblockd]\
+root        5751  0.0  0.0      0     0 ?        I    18:05   0:00 [kworker/4:1]\
+root        5935  0.0  0.0      0     0 ?        I<   18:10   0:00 [kworker/6:1H-kblockd]\
+root        5947  0.0  0.0      0     0 ?        I<   18:10   0:00 [kworker/4:0H-events_highpri]\
+root        5971  0.0  0.0      0     0 ?        I<   18:11   0:00 [kworker/7:1H]\
+root        5972  0.2  0.0      0     0 ?        I<   18:11   0:01 [kworker/2:0H-kblockd]\
+root        5984  0.0  0.0      0     0 ?        I<   18:11   0:00 [kworker/3:2H]\
+root        6030  0.0  0.0      0     0 ?        I<   18:14   0:00 [kworker/0:3H-mmc_complete]\
+root        6040  0.0  0.0      0     0 ?        I<   18:14   0:00 [kworker/1:1H]\
+root        6061  0.0  0.0  15464  4188 pts/0    S    18:15   0:00 sudo tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_181543.pcap\
+tcpdump     6070 18.8  0.0  11036  5852 pts/0    S    18:15   0:53 tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_181543.pcap\
+root        6090  0.0  0.0      0     0 ?        I    18:16   0:00 [kworker/u16:1-events_power_efficient]\
+root        6113  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/2:2H]\
+root        6120  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/5:0H]\
+root        6121  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/7:0H]\
+root        6122  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/6:0H]\
+root        6248  0.0  0.0      0     0 ?        I<   18:20   0:00 [kworker/3:1H]\
+neardi      6251  0.1  0.0  11412  3556 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_can.sh\
+neardi      6252  0.1  0.0  11412  3464 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_ethernet.sh\
+neardi      6253  0.1  0.0  11412  3424 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_host.sh\
+neardi      6262  7.6  0.0   1952   208 pts/0    S    18:20   0:00 candump can0\
+root        6263  0.3  0.0  15468  4140 pts/0    S    18:20   0:00 sudo tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_182015.pcap\
+tcpdump     6269 14.9  0.0  11036  5944 pts/0    S    18:20   0:01 tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_182015.pcap\
+neardi      6275  0.0  0.0  13244  2932 pts/0    R    18:20   0:00 ps aux\
+=== 2025\uc0\u24180  04\u26376  04\u26085  \u26143 \u26399 \u20116  18:20:30 UTC ===\
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND\
+root           1  0.0  0.0 169000 10496 ?        Ss   16:14   0:05 /sbin/init\
+root           2  0.0  0.0      0     0 ?        S    16:14   0:00 [kthreadd]\
+root           3  0.0  0.0      0     0 ?        I<   16:14   0:00 [rcu_gp]\
+root           4  0.0  0.0      0     0 ?        I<   16:14   0:00 [rcu_par_gp]\
+root           8  0.0  0.0      0     0 ?        I<   16:14   0:00 [mm_percpu_wq]\
+root           9  0.0  0.0      0     0 ?        S    16:14   0:00 [rcu_tasks_rude_]\
+root          10  0.8  0.0      0     0 ?        S    16:14   1:04 [ksoftirqd/0]\
+root          11  0.1  0.0      0     0 ?        I    16:14   0:09 [rcu_sched]\
+root          12  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/0]\
+root          13  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/0]\
+root          14  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/1]\
+root          15  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/1]\
+root          16  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/1]\
+root          19  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/2]\
+root          20  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/2]\
+root          21  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/2]\
+root          24  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/3]\
+root          25  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/3]\
+root          26  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/3]\
+root          29  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/4]\
+root          30  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/4]\
+root          31  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/4]\
+root          34  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/5]\
+root          35  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/5]\
+root          36  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/5]\
+root          39  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/6]\
+root          40  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/6]\
+root          41  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/6]\
+root          44  0.0  0.0      0     0 ?        S    16:14   0:00 [cpuhp/7]\
+root          45  0.0  0.0      0     0 ?        S    16:14   0:00 [migration/7]\
+root          46  0.0  0.0      0     0 ?        S    16:14   0:00 [ksoftirqd/7]\
+root          49  0.0  0.0      0     0 ?        S    16:14   0:00 [kdevtmpfs]\
+root          50  0.0  0.0      0     0 ?        I<   16:14   0:00 [netns]\
+root          52  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/5:1-pm]\
+root          58  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/3:1-mm_percpu_wq]\
+root          59  0.0  0.0      0     0 ?        S    16:14   0:00 [oom_reaper]\
+root          60  0.0  0.0      0     0 ?        I<   16:14   0:00 [writeback]\
+root         105  0.0  0.0      0     0 ?        I<   16:14   0:00 [kblockd]\
+root         106  0.0  0.0      0     0 ?        I<   16:14   0:00 [blkcg_punt_bio]\
+root         107  0.0  0.0      0     0 ?        S    16:14   0:00 [kconsole]\
+root         108  0.0  0.0      0     0 ?        I<   16:14   0:00 [tpm_dev_wq]\
+root         109  0.0  0.0      0     0 ?        I<   16:14   0:00 [devfreq_wq]\
+root         110  0.0  0.0      0     0 ?        S    16:14   0:00 [watchdogd]\
+root         112  0.0  0.0      0     0 ?        I<   16:14   0:00 [rpciod]\
+root         113  0.0  0.0      0     0 ?        I<   16:14   0:02 [kworker/5:1H-ext_eventd]\
+root         114  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/u17:0-mali_kbase_csf_sync_upd]\
+root         115  0.0  0.0      0     0 ?        I<   16:14   0:00 [xprtiod]\
+root         116  0.0  0.0      0     0 ?        I<   16:14   0:00 [cfg80211]\
+root         136  0.0  0.0      0     0 ?        S    16:14   0:00 [kswapd0]\
+root         137  0.0  0.0      0     0 ?        I<   16:14   0:00 [nfsiod]\
+root         138  0.0  0.0      0     0 ?        I<   16:14   0:00 [xfsalloc]\
+root         139  0.0  0.0      0     0 ?        I<   16:14   0:00 [xfs_mru_cache]\
+root         141  0.0  0.0      0     0 ?        I<   16:14   0:00 [kthrotld]\
+root         142  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/24-rockchip]\
+root         143  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/25-rockchip]\
+root         145  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/26-rockchip]\
+root         146  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/107-rockchi]\
+root         149  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work0]\
+root         150  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work1]\
+root         151  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work2]\
+root         152  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work3]\
+root         153  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work4]\
+root         154  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work5]\
+root         155  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work6]\
+root         156  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work7]\
+root         157  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work8]\
+root         158  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work9]\
+root         159  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work10]\
+root         160  0.0  0.0      0     0 ?        S    16:14   0:00 [queue_work11]\
+root         161  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/32-fdb50400]\
+root         162  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/39-fdba0000]\
+root         163  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/41-fdba4000]\
+root         164  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/43-fdba8000]\
+root         165  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/45-fdbac000]\
+root         166  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/47-fdbb0000]\
+root         167  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/37-fdb90000]\
+root         168  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/48-fdbd0000]\
+root         169  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/51-fdbe0000]\
+root         170  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/130-av1d-ma]\
+root         171  0.0  0.0      0     0 ?        S    16:14   0:00 [hwrng]\
+root         172  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/68-fde50000]\
+root         173  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/133-dw-dp-h]\
+root         174  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/109-fde6000]\
+root         183  0.0  0.0      0     0 ?        SN   16:14   0:00 [dmabuf-deferred]\
+root         184  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-wq]\
+root         185  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-reset-wq]\
+root         186  0.0  0.0      0     0 ?        I<   16:14   0:00 [nvme-delete-wq]\
+root         187  0.0  0.0      0     0 ?        S    16:14   0:00 [scsi_eh_0]\
+root         188  0.0  0.0      0     0 ?        I<   16:14   0:00 [scsi_tmf_0]\
+root         189  0.0  0.0      0     0 ?        S    16:14   0:00 [spi2]\
+root         190  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/134-rk806]\
+root         191  0.0  0.0      0     0 ?        I<   16:14   0:00 [stmmac_wq]\
+root         197  0.0  0.0      0     0 ?        I<   16:14   0:00 [uas]\
+root         198  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/7:2-pm]\
+root         200  0.0  0.0      0     0 ?        I    16:14   0:01 [kworker/1:2-pm]\
+root         204  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/152-hym8563]\
+root         205  0.0  0.0      0     0 ?        I<   16:14   0:00 [6-0022]\
+root         206  0.0  0.0      0     0 ?        S    16:14   0:00 [6-0022]\
+root         207  0.0  0.0      0     0 ?        S    16:14   0:00 [6-0022]\
+root         210  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/117-rk_hdmi]\
+root         211  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/97-rockchip]\
+root         212  0.0  0.0      0     0 ?        I<   16:14   0:00 [dm_bufio_cache]\
+root         213  0.2  0.0      0     0 ?        S    16:14   0:17 [cfinteractive]\
+root         214  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/3:2-cgroup_destroy]\
+root         219  0.0  0.0      0     0 ?        I<   16:14   0:00 [sdhci]\
+root         220  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/79-mmc0]\
+root         221  0.0  0.0      0     0 ?        I<   16:14   0:00 [cryptodev_queue]\
+root         223  0.0  0.0      0     0 ?        I<   16:14   0:00 [mmc_complete]\
+root         224  0.0  0.0      0     0 ?        I<   16:14   0:01 [kworker/2:1H-events_highpri]\
+root         226  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/156-headset]\
+root         227  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/5:2-cgroup_destroy]\
+root         229  0.0  0.0      0     0 ?        I<   16:14   0:00 [ipv6_addrconf]\
+root         230  0.0  0.0      0     0 ?        S<   16:14   0:00 [krfcommd]\
+root         232  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/34-rga3_cor]\
+root         233  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/35-rga3_cor]\
+root         234  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/36-rga2]\
+root         235  0.0  0.0      0     0 ?        I<   16:14   0:00 [gpu_power_off_w]\
+root         236  0.0  0.0      0     0 ?        S    16:14   0:01 [mali-simple-pow]\
+root         239  0.0  0.0      0     0 ?        I<   16:14   0:00 [hpd_queue]\
+root         240  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/73-dw-hdmi-]\
+root         241  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/69-fde80000]\
+root         242  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/71-fde80000]\
+root         243  0.0  0.0      0     0 ?        I<   16:14   0:00 [hpd_queue]\
+root         244  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/114-dw-hdmi]\
+root         245  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/110-fdea000]\
+root         246  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/112-fdea000]\
+root         247  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc0]\
+root         248  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc1]\
+root         249  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc2]\
+root         250  0.0  0.0      0     0 ?        S    16:14   0:00 [card0-crtc3]\
+root         251  0.0  0.0      0     0 ?        I<   16:14   0:00 [rknpu_power_off]\
+root         263  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/6:2H-events_highpri]\
+root         268  0.0  0.0      0     0 ?        S    16:14   0:00 [jbd2/mmcblk0p7-]\
+root         269  0.0  0.0      0     0 ?        I<   16:14   0:00 [ext4-rsv-conver]\
+root         270  0.0  0.0      0     0 ?        I    16:14   0:02 [kworker/0:2-events]\
+root         291  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/6:2-events]\
+root         296  0.0  0.1  53884 18764 ?        S<s  16:14   0:02 /lib/systemd/systemd-journald\
+root         328  0.0  0.0      0     0 ?        I    16:14   0:00 [kworker/6:3-cgroup_destroy]\
+root         331  0.0  0.0  21420  6920 ?        Ss   16:14   0:00 /lib/systemd/systemd-udevd\
+systemd+     419  0.2  0.0  25596 13104 ?        Ss   16:14   0:16 /lib/systemd/systemd-resolved\
+root         431  0.0  0.0 240196  7936 ?        Ssl  16:14   0:00 /usr/lib/accountsservice/accounts-daemon\
+avahi        437 26.0  0.0  10404  6652 ?        Ss   16:14  32:49 avahi-daemon: running [LPA3588.local]\
+root         439  0.0  0.0   9696  2596 ?        Ss   16:14   0:00 /usr/sbin/cron -f\
+root         443  0.4  0.0  34968 11884 ?        Ss   16:14   0:36 /usr/sbin/cupsd -l\
+message+     444  1.0  0.0   9596  5616 ?        Ss   16:14   1:22 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\
+root         445  0.1  0.1 340068 19968 ?        Ssl  16:14   0:07 /usr/sbin/NetworkManager --no-daemon\
+root         449  0.0  0.1  38772 19288 ?        Ss   16:14   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers\
+root         451  0.1  0.0 243260 10508 ?        Ssl  16:14   0:09 /usr/lib/policykit-1/polkitd --no-debug\
+root         476  0.0  0.0 236572  5844 ?        Ssl  16:14   0:00 /usr/libexec/switcheroo-control\
+root         479  0.0  0.0  17232  6628 ?        Ss   16:14   0:00 /lib/systemd/systemd-logind\
+root         480  0.0  0.0   5560  2424 ?        Ss   16:14   0:00 /usr/sbin/thd --triggers /etc/triggerhappy/triggers.d/ --socket /run/thd.socket --user root --deviceglob /dev/input/event*\
+root         482  0.0  0.0 392376 11096 ?        Ssl  16:14   0:00 /usr/lib/udisks2/udisksd\
+root         483  0.0  0.0  12804  7804 ?        Ss   16:14   0:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant\
+avahi        499  0.0  0.0   6896   328 ?        S    16:14   0:00 avahi-daemon: chroot helper\
+root         558  0.0  0.0   9544     4 ?        Sl   16:14   0:00 /usr/bin/adbd\
+root         711  0.8  0.1 188300 27412 ?        Ssl  16:14   1:06 /usr/sbin/cups-browsed\
+root         807  6.2  0.2 780104 43644 ?        Ssl  16:14   7:50 /opt/todesk/bin/ToDesk_Service\
+root         810  0.0  0.1 116916 21016 ?        Ssl  16:14   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal\
+whoopsie     811  0.0  0.0 254700 14192 ?        Ssl  16:14   0:00 /usr/bin/whoopsie -f\
+root         815  0.0  0.2 1713300 36592 ?       Ssl  16:14   0:06 /usr/bin/containerd\
+root         816  0.0  0.0  12232  6376 ?        Ss   16:14   0:00 sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups\
+root         818  0.0  0.0 244460 11420 ?        Ssl  16:14   0:00 /usr/sbin/ModemManager\
+root         822  0.0  0.0   8164  1872 ttyFIQ0  Ss+  16:14   0:00 /sbin/agetty -o -p -- \\u --keep-baud 115200,38400,9600 ttyFIQ0 vt220\
+kernoops     825  0.0  0.0  11468   444 ?        Ss   16:14   0:01 /usr/sbin/kerneloops --test\
+kernoops     829  0.0  0.0  11468   444 ?        Ss   16:14   0:01 /usr/sbin/kerneloops\
+root         838  0.0  0.0   8392  1440 tty1     Ss+  16:14   0:00 /sbin/agetty -o -p -- \\u --noclear tty1 linux\
+root         844  0.0  0.0      0     0 ?        S    16:14   0:00 [irq/138-dwc3]\
+root         907  0.0  0.0      0     0 ?        I<   16:14   0:00 [ext_eventd]\
+root         908  0.3  0.0      0     0 ?        S    16:14   0:27 [dhd_watchdog_th]\
+root         909  2.0  0.0      0     0 ?        S    16:14   2:33 [dhd_dpc]\
+root         910  0.5  0.0      0     0 ?        S    16:14   0:40 [dhd_rxf]\
+root         930  0.0  0.4 1663080 64732 ?       Ssl  16:14   0:06 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock\
+colord       945  0.0  0.0 321420 14740 ?        Ssl  16:14   0:03 /usr/libexec/colord\
+root         950  0.0  0.0   1808   460 ?        S    16:14   0:00 brcm_patchram_plus1 --enable_hci --no2bytes --use_baudrate_for_download --tosleep 200000 --baudrate 1500000 --patchram /system/etc/firmware  /dev/ttyS9\
+root        1150  0.0  0.0      0     0 ?        I<   16:14   0:00 [kworker/u17:2-kbase_pm_poweroff_wait]\
+root        1151  0.0  0.0   8124  4232 ?        Ss   16:14   0:00 /usr/lib/bluetooth/bluetoothd\
+root        1211  0.0  0.0 232440  7024 ?        Ssl  16:14   0:00 /usr/sbin/lightdm\
+root        1219  0.3  1.1 3314744 186364 tty7   Ssl+ 16:14   0:29 /usr/bin/X -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch\
+root        1258  0.0  0.0 161896  7312 ?        Sl   16:14   0:00 lightdm --session-child 12 15\
+neardi      1284  0.0  0.0  19244  9308 ?        Ss   16:14   0:01 /lib/systemd/systemd --user\
+neardi      1288  0.0  0.0 169616  3020 ?        S    16:14   0:00 (sd-pam)\
+neardi      1303  0.0  0.0 838492 12400 ?        Ssl  16:14   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal\
+neardi      1305  0.0  0.0 188492 12064 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu\
+rtkit       1308  0.0  0.0 152516  2468 ?        SNsl 16:14   0:00 /usr/libexec/rtkit-daemon\
+neardi      1318  0.0  0.0   9892  5992 ?        Ss   16:14   0:04 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only\
+root        1362  0.0  0.0      0     0 ?        I<   16:14   0:00 [dhd_eventd]\
+neardi      1382  0.0  0.0   5304   436 ?        Ss   16:14   0:00 /usr/bin/ssh-agent /opt/sogoupinyin/files/bin/sogouimebs-session /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu\
+neardi      1394  0.0  0.0 305912  5872 ?        Ssl  16:14   0:00 /usr/libexec/at-spi-bus-launcher\
+neardi      1399  0.0  0.0   7808  3760 ?        S    16:14   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3\
+neardi      1427  0.0  0.0  90624  3212 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-ctl --monitor\
+neardi      1436  0.0  0.0 484604 13964 ?        Ssl  16:14   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu\
+neardi      1447  0.0  0.0 240780  6520 ?        Sl   16:14   0:00 /usr/bin/gnome-keyring-daemon --start --components=pkcs11\
+neardi      1455  3.3  2.4 5462984 386828 ?      Ssl  16:14   4:09 /usr/bin/gnome-shell\
+neardi      1533  0.0  0.0 240440  7208 ?        Ssl  16:14   0:00 /usr/libexec/gvfsd\
+neardi      1538  0.0  0.0 378644  5660 ?        Sl   16:14   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes\
+neardi      1555  0.0  0.0 385516  8020 ?        Sl   16:14   0:00 ibus-daemon --panel disable --xim\
+neardi      1559  0.0  0.0 163480  6596 ?        Sl   16:14   0:00 /usr/libexec/ibus-memconf\
+neardi      1560  0.0  0.1 276228 30460 ?        Sl   16:14   0:01 /usr/libexec/ibus-extension-gtk3\
+neardi      1562  0.0  0.1 198336 26832 ?        Sl   16:14   0:00 /usr/libexec/ibus-x11 --kill-daemon\
+neardi      1565  0.0  0.0 237152  6876 ?        Sl   16:14   0:00 /usr/libexec/ibus-portal\
+neardi      1577  0.0  0.0 161428  6832 ?        Sl   16:14   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session\
+neardi      1582  0.0  0.0 236280  5516 ?        Ssl  16:14   0:00 /usr/libexec/xdg-permission-store\
+neardi      1587  0.0  0.1 582372 16452 ?        Sl   16:14   0:00 /usr/libexec/gnome-shell-calendar-server\
+neardi      1593  0.0  0.1 941832 23428 ?        Ssl  16:14   0:00 /usr/libexec/evolution-source-registry\
+neardi      1602  0.0  0.2 553708 32468 ?        Sl   16:14   0:00 /usr/libexec/goa-daemon\
+root        1603  0.0  0.0 253672  9372 ?        Ssl  16:14   0:00 /usr/lib/upower/upowerd\
+neardi      1607  0.0  0.1 841424 28256 ?        Ssl  16:14   0:00 /usr/libexec/evolution-calendar-factory\
+neardi      1622  0.0  0.0 156376  4696 ?        Sl   16:14   0:00 /usr/libexec/dconf-service\
+neardi      1631  0.0  0.0 315716  8408 ?        Sl   16:14   0:00 /usr/libexec/goa-identity-service\
+neardi      1655  0.0  0.0 314824  8788 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-udisks2-volume-monitor\
+neardi      1668  0.0  0.1 676408 28272 ?        Ssl  16:14   0:00 /usr/libexec/evolution-addressbook-factory\
+neardi      1683  0.0  0.0 317696  8244 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-afc-volume-monitor\
+neardi      1691  0.0  0.0 238412  5720 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor\
+neardi      1699  0.0  0.0 236548  6140 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-goa-volume-monitor\
+neardi      1703  0.0  0.0 236564  5464 ?        Ssl  16:14   0:00 /usr/libexec/gvfs-mtp-volume-monitor\
+neardi      1716  0.0  0.0 314568  7452 ?        Sl   16:14   0:00 /usr/libexec/gvfsd-trash --spawner :1.27 /org/gtk/gvfs/exec_spaw/0\
+neardi      1723  0.0  0.1 2928328 25516 ?       Sl   16:14   0:03 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications\
+neardi      1740  0.0  0.0 310492  6152 ?        Ssl  16:14   0:00 /usr/libexec/gsd-a11y-settings\
+neardi      1741  0.0  0.1 569044 28592 ?        Ssl  16:14   0:01 /usr/libexec/gsd-color\
+neardi      1742  0.0  0.0 374720 14448 ?        Ssl  16:14   0:00 /usr/libexec/gsd-datetime\
+neardi      1743  0.0  0.0 312100  7060 ?        Ssl  16:14   0:02 /usr/libexec/gsd-housekeeping\
+neardi      1744  0.0  0.1 346572 28616 ?        Ssl  16:14   0:00 /usr/libexec/gsd-keyboard\
+neardi      1745  0.0  0.1 900448 29920 ?        Ssl  16:14   0:00 /usr/libexec/gsd-media-keys\
+neardi      1746  0.0  0.1 421008 27980 ?        Ssl  16:14   0:00 /usr/libexec/gsd-power\
+neardi      1748  0.1  0.0 249888 10716 ?        Ssl  16:14   0:11 /usr/libexec/gsd-print-notifications\
+neardi      1752  0.0  0.0 457936  6216 ?        Ssl  16:14   0:00 /usr/libexec/gsd-rfkill\
+neardi      1754  0.0  0.0 236248  4964 ?        Ssl  16:14   0:00 /usr/libexec/gsd-screensaver-proxy\
+neardi      1759  0.0  0.0 466360 10332 ?        Ssl  16:14   0:00 /usr/libexec/gsd-sharing\
+neardi      1760  0.0  0.0 315768  8712 ?        Ssl  16:14   0:00 /usr/libexec/gsd-smartcard\
+neardi      1761  0.0  0.0 318212  8128 ?        Ssl  16:14   0:00 /usr/libexec/gsd-sound\
+neardi      1762  0.0  0.0 385256  6380 ?        Ssl  16:14   0:00 /usr/libexec/gsd-usb-protection\
+neardi      1764  0.0  0.1 346004 27124 ?        Ssl  16:14   0:00 /usr/libexec/gsd-wacom\
+neardi      1765  0.0  0.0 315060  8288 ?        Ssl  16:14   0:00 /usr/libexec/gsd-wwan\
+neardi      1766  0.0  0.1 347404 28716 ?        Ssl  16:14   0:03 /usr/libexec/gsd-xsettings\
+neardi      1779  0.0  0.3 591360 50852 ?        Sl   16:14   0:00 /usr/bin/python3 /usr/bin/blueman-applet\
+neardi      1813  0.0  0.3 647440 54868 ?        Sl   16:14   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify\
+neardi      1817  0.0  0.0 231452  6184 ?        Sl   16:14   0:00 /usr/libexec/gsd-disk-utility-notify\
+neardi      1824  0.0  0.0 313512  8236 ?        Sl   16:14   0:00 /usr/lib/aarch64-linux-gnu/indicator-messages/indicator-messages-service\
+neardi      1859  0.0  0.2 125832 37436 ?        S    16:14   0:00 fcitx\
+neardi      1880  0.0  0.0 163480  6844 ?        Sl   16:14   0:00 /usr/libexec/ibus-engine-simple\
+neardi      1895  0.0  0.0   7808  3196 ?        Ss   16:14   0:00 /usr/bin/dbus-daemon --syslog --fork --print-pid 5 --print-address 7 --config-file /usr/share/fcitx/dbus/daemon.conf\
+neardi      1902  0.0  0.0   4916   200 ?        SN   16:14   0:00 /usr/bin/fcitx-dbus-watcher unix:abstract=/tmp/dbus-sFHKz5JyIS,guid=f4ccc11005201f7deb06fc0c67f0057d 1895\
+neardi      1953  0.0  0.0 343012 13016 ?        Sl   16:14   0:00 /usr/libexec/gsd-printer\
+neardi      1966  0.0  0.2 364284 45348 ?        Sl   16:14   0:00 /usr/bin/python3 /usr/bin/blueman-tray\
+neardi      1967  0.0  0.0  43104  6584 ?        Ss   16:14   0:00 /usr/lib/bluetooth/obexd\
+neardi      1968  0.0  0.1 512952 23220 ?        SNsl 16:14   0:04 /usr/libexec/tracker-miner-fs\
+neardi      2001  0.1  0.8 854624 134760 ?       Sl   16:14   0:09 /opt/sogoupinyin/files/bin/sogoupinyin-service\
+neardi      2010  0.0  0.1 241392 18340 ?        Sl   16:14   0:07 /opt/sogoupinyin/files/bin/sogoupinyin-watchdog\
+neardi      2067  0.0  0.0 162936  5928 ?        Ssl  16:15   0:00 /usr/libexec/gvfsd-metadata\
+neardi      2070  0.0  0.1 421600 30448 ?        Sl   16:15   0:01 update-notifier\
+root        2094  0.0  0.0  10056  9096 ?        S<Ls 16:16   0:03 /usr/bin/atop -R -w /var/log/atop/atop_20250404 600\
+root        2185  0.0  0.0  15720  7992 ?        Ss   16:18   0:00 sshd: neardi [priv]\
+neardi      2271  0.0  0.0  15720  4588 ?        S    16:18   0:02 sshd: neardi@pts/0\
+neardi      2275  0.0  0.0  12476  4960 pts/0    Ss+  16:18   0:00 -bash\
+lp          2361  0.0  0.0  15304  5616 ?        S    16:20   0:00 /usr/lib/cups/notifier/dbus dbus://\
+lp          2376  0.0  0.0  15568  6068 ?        S    16:20   0:00 /usr/lib/cups/notifier/dbus dbus://\
+root        3529  0.0  0.0      0     0 ?        I    16:22   0:02 [kworker/4:0-events_freezable]\
+root        3640  0.0  0.0      0     0 ?        I    16:22   0:00 [kworker/7:0-cgroup_destroy]\
+root        3861  0.0  0.0      0     0 ?        I    16:28   0:00 [kworker/2:0-events]\
+root        4001  0.1  0.0      0     0 ?        I    17:04   0:06 [kworker/u16:0-devfreq_wq]\
+root        4091  0.0  0.0      0     0 ?        I    17:16   0:00 [kworker/2:1-cgroup_destroy]\
+root        5398  0.0  0.0      0     0 ?        I    17:30   0:00 [kworker/1:1-cgroup_destroy]\
+root        5462  0.0  0.0      0     0 ?        I<   17:32   0:00 [kworker/7:2H-events_highpri]\
+root        5470  0.0  0.0      0     0 ?        I    17:32   0:01 [kworker/0:0-mm_percpu_wq]\
+root        5675  0.0  0.0      0     0 ?        I<   17:51   0:01 [kworker/1:2H-kblockd]\
+root        5692  0.2  0.0      0     0 ?        I    17:55   0:03 [kworker/u16:2-devfreq_wq]\
+root        5705  0.0  0.0      0     0 ?        I<   17:58   0:00 [kworker/0:1H-mmc_complete]\
+root        5721  0.1  0.0      0     0 ?        I    18:01   0:01 [kworker/u16:3-events_power_efficient]\
+root        5729  0.0  0.0      0     0 ?        I<   18:02   0:00 [kworker/5:2H]\
+root        5733  0.0  0.0      0     0 ?        I<   18:03   0:00 [kworker/0:0H-mmc_complete]\
+root        5734  0.0  0.0      0     0 ?        I<   18:03   0:00 [kworker/4:2H]\
+root        5743  0.0  0.0      0     0 ?        I<   18:04   0:00 [kworker/3:0H-kblockd]\
+root        5751  0.0  0.0      0     0 ?        I    18:05   0:00 [kworker/4:1]\
+root        5935  0.0  0.0      0     0 ?        I<   18:10   0:00 [kworker/6:1H-kblockd]\
+root        5947  0.0  0.0      0     0 ?        I<   18:10   0:00 [kworker/4:0H-events_highpri]\
+root        5971  0.0  0.0      0     0 ?        I<   18:11   0:00 [kworker/7:1H]\
+root        5972  0.2  0.0      0     0 ?        I<   18:11   0:01 [kworker/2:0H-kblockd]\
+root        5984  0.0  0.0      0     0 ?        I<   18:11   0:00 [kworker/3:2H]\
+root        6030  0.0  0.0      0     0 ?        I<   18:14   0:00 [kworker/0:3H-mmc_complete]\
+root        6040  0.0  0.0      0     0 ?        I<   18:14   0:00 [kworker/1:1H]\
+root        6061  0.0  0.0  15464  4188 pts/0    S    18:15   0:00 sudo tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_181543.pcap\
+tcpdump     6070 18.7  0.0  11036  5852 pts/0    S    18:15   0:54 tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_181543.pcap\
+root        6090  0.0  0.0      0     0 ?        I    18:16   0:00 [kworker/u16:1-devfreq_wq]\
+root        6113  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/2:2H]\
+root        6120  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/5:0H]\
+root        6121  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/7:0H]\
+root        6122  0.0  0.0      0     0 ?        I<   18:16   0:00 [kworker/6:0H]\
+root        6248  0.0  0.0      0     0 ?        I<   18:20   0:00 [kworker/3:1H]\
+neardi      6251  0.0  0.0  11412  3556 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_can.sh\
+neardi      6252  0.0  0.0  11412  3464 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_ethernet.sh\
+neardi      6253  0.0  0.0  11412  3424 pts/0    S    18:20   0:00 /bin/bash ./scripts/capture_host.sh\
+neardi      6262  7.6  0.0   1952   208 pts/0    S    18:20   0:01 candump can0\
+root        6263  0.2  0.0  15468  4140 pts/0    S    18:20   0:00 sudo tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_182015.pcap\
+tcpdump     6269 15.1  0.0  11036  5944 pts/0    S    18:20   0:02 tcpdump -i eth0 -w /home/neardi/Vehicle-IDS-Experiment/data/normal/ethernet/eth_20250404_182015.pcap\
+root        6277  0.0  0.0      0     0 ?        I    18:20   0:00 [kworker/u16:4]\
+neardi      6279  0.0  0.0  13244  3064 pts/0    R    18:20   0:00 ps aux}
