@@ -8,4 +8,4 @@ Rule-based IDS components for multi-domain attack traceback:
 - `definitions/`: System config & topology
 - `data/`: CAN, HOST, Ethernet datasets
 
-Supports attack chain reconstruction across vehicle domains.
+Supports attack chain TRACEBACK across vehicle domains.
